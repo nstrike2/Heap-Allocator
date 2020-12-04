@@ -1,4 +1,4 @@
-/* Neetish Sharma, CS 107, Assignment 7 — Heap Allocator
+/* Neetish Sharma
  * This file contains an implicit allocator, which allocates memory for a client and hosts three client-facing features: mallocing, freeing, and reallocing.
  */
 #include "allocator.h"
