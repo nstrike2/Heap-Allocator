@@ -94,17 +94,9 @@ bool validate_heap() {
 
 /* Function: dump_heap
  * -------------------
- * This optional function dumps the raw heap contents.
+ * This function dumps the raw heap contents.
  * This function is not called from anywhere, it is just here to
  * demonstrate how such a function might be a useful debugging aid.
- * You are not required to implement such a function in your own
- * allocators, but if you do, you can then call the function
- * from gdb to view the contents of the heap segment. 
- * For the bump allocator, the heap contains no block headers or 
- * heap housekeeping to provide structure, so all that can be displayed 
- * is a dump of the raw bytes. For a more structured allocator, you 
- * could implement dump_heap to instead just print the block headers, 
- * which would be less overwhelming to wade through for debugging.
  */
 void dump_heap() {
     printf("Heap segment starts at address %p, ends at %p. %lu bytes currently used.", 
