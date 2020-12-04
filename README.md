@@ -22,7 +22,7 @@ r 1 300
 
 f 1
 
-is converted into these calls to an allocator:
+is converted into these calls in an allocator:
 
 void *ptr0 = mymalloc(24);
 
