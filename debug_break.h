@@ -2,7 +2,7 @@
  * -------------------
  * If running under the debugger, a call to breakpoint() will
  * behave as though execution hit a gdb breakpoint. If not 
- * running under debugger, breakpoint() is a no-op. Call this
+ * running under debugger, breakpoint() is a no-op. Calls this
  * function in validate_heap() to break when an error is detected.
  * 
  */
