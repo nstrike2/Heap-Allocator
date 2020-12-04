@@ -36,6 +36,6 @@ myfree(ptr1);
 
 ---
 
-The test_harness runs the allocator and its various functionalities (mymallc, myrealloc, myfree) on a script and validates results (validate_heap) for correctness. When compiled using "make", it will create 3 differentcompiled versions of this program, one using each type of heap allocator (bump, implicit, and explicit).
+The test_harness runs the allocator and its various functionalities (mymallc, myrealloc, myfree) on a script and validates results (validate_heap) for correctness. When compiled using "make", it will create 3 different compiled versions of this program, one using each type of heap allocator (bump, implicit, and explicit).
 
 Hope you enjoy!
