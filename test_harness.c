@@ -5,11 +5,9 @@
  * allocator requests. Runs the allocator on a script and validates
  * results for correctness.
  *
- * When you compile using `make`, it will create 3 different
+ * When compiled using `make`, it will create 3 different
  * compiled versions of this program, one using each type of
  * heap allocator.
- *
- * Written by jzelenski, updated by Nick Troccoli Winter 18-19
  */
 
 #include <error.h>
