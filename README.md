@@ -13,17 +13,25 @@ The project also includes a test_harness file, which reads and interprets text-b
 A script file containing:
 
 a 0 24
+
 a 1 100
+
 f 0
+
 r 1 300
+
 f 1
 
 is converted into these calls to an allocator:
 
 void *ptr0 = mymalloc(24);
+
 void *ptr1 = mymalloc(100);
+
 myfree(ptr0);
+
 ptr1 = myrealloc(ptr1, 300);
+
 myfree(ptr1);
 
 ---
