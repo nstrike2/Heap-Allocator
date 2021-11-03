@@ -3,7 +3,7 @@ An implicit and explicit implementation of a heap allocator. Programmed in C.
 
 An implicit allocator entails managing free heap space through a first-fit method over the total number of blocks in the heap.
 
-An explicit allocator entails managing free heap space through a first-fit method over the a linked list of free blocks in the heap, optimizing throughput. In addition, the explicit allocator, unlike the implicit, supports coalescing of free blocks and an in-place realloc (also utilizing coalescing) to improve utilization.
+An explicit allocator entails managing free heap space through a first-fit method over a linked list of free blocks in the heap, optimizing throughput. In addition, the explicit allocator, unlike the implicit, supports coalescing of free blocks and an in-place realloc (also utilizing coalescing) to improve utilization.
 
 
 The project also includes a test_harness file, which reads and interprets text-based script files (that the user can create and input) containing a sequence of allocator requests. Allocator requests are formatted as follows:
